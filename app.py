@@ -5,7 +5,7 @@ import pandas as pd
 st.header('Demographic Details')
 
 df = pd.read_csv('india.csv')
-#Sidebar
+#Sidebars
 st.sidebar.header('Choose Demographic Features')
 states_list = list(df['State'].unique())
 states_list.insert(0,'Overall India')
